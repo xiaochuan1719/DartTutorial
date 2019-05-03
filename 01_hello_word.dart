@@ -1,13 +1,17 @@
+/**
+ * A basic Dart program
+ */
+
+// This is where the app starts executing.
 void main() {
 
-  // this is my first line of code
-  print('Hello Dart');
+    var number = 100; // Declare and initialize a variable.
 
-  print('This is my first dart app');
+    // Call a function
+    printInteger(number);
+}
 
-  // Performing arithematic operation
-  print( 12/ 4 );
-
-  // Printing out boolean value
-  print(false);
+// Define a function
+printInteger(num aNumber) {
+  print('The number is $aNumber.'); // Print to console.
 }
